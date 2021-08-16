@@ -1,3 +1,14 @@
+@import "./components/header.css"; 
+@import "./components/main.css"; 
+@import "./components/footer.css"; 
+@import "./components/mediaQuerie.css"; 
+
+:root {
+  --clr-white: #ffffff; 
+  --clr-black: #000000; 
+
+
+}
 *,::before,::after {
     margin: 0;
     padding: 0;
@@ -9,6 +20,7 @@ html {
 }
 body {
     width: 100%;
+    font-family: 'DM Sans', sans-serif;
 }
 ul {
     list-style: none;
