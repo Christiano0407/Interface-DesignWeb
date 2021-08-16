@@ -1,4 +1,4 @@
-@import "./components/menu-toggle.css"; 
+@import "./components/menu__toggle.css"; 
 @import "./components/header.css"; 
 @import "./components/main.css"; 
 @import "./components/footer.css"; 
@@ -38,4 +38,9 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+#span1 {
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
 }
