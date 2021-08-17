@@ -1,0 +1,74 @@
+/* < ========================== Navegation  Complements=================================== >*/
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.5;
+}
+.large {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--clr-complement);
+}
+.small {
+    font-size: 0.8rem;
+    color: var(--clr-white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+/* < ========================== Nav=================================== >*/
+.nav {
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+  height: 100vh;
+  width: 100%;
+}
+.nav.active {
+    pointer-events: none;
+}
+.nav__left {
+    position: relative;
+    z-index: 10;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background: var(--clr-base);
+    transition: 0.8s;
+}
+.nav__left.active {
+   left: 0;
+   transition: 0.5s;
+}
+
+.nav__left ul {
+    position: relative;
+    top: 35%;
+    left: 10%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav__right {
+    position: absolute;
+    z-index: 9;
+    transition: 0.5s;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--clr-white);
+}
+.nav__right.active {
+    left: 50%;
+    transition: 0.5s;
+}
