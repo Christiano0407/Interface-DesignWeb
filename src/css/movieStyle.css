@@ -1,0 +1,36 @@
+@import "./cssMedia/movieQueries.css"; 
+
+:root {
+  --clr-white: #ffffff; 
+  --clr-black: #000000; 
+  --clr-base: #f72585; 
+  --clr-ba30: #480ca8; 
+  --clr-complement: #4cc9f0; 
+
+}
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.58%;
+}
+body {
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+     text-decoration: none;
+     cursor: pointer;
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
