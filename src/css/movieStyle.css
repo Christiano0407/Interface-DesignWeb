@@ -5,6 +5,7 @@
 :root {
   --clr-white: #ffffff; 
   --clr-black: #000000; 
+  --clr-bl2:#161616; 
   --clr-base: #f72585; 
   --clr-ba30: #480ca8; 
   --clr-complement: #4cc9f0; 
@@ -22,6 +23,7 @@ html {
 body {
     width: 100%;
     font-family: 'DM Sans', sans-serif;
+    background: var(--clr-bl2);
 }
 ul {
     list-style: none;
