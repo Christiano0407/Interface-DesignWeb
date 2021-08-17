@@ -72,3 +72,18 @@ a:hover {
     left: 50%;
     transition: 0.5s;
 }
+.contact {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    bottom: 10%;
+    left: 0;
+}
+.contact.active {
+    opacity: 1;
+    left: 10%;
+    transition: 0.5s;
+}
+p {
+    color: var(--clr-ba30);
+}

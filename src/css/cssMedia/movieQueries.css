@@ -2,6 +2,21 @@
 
 /* ============ Mobile ============*/
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Estándar Breakpoints <<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*SmartPhone*/
+@media (min-width: 360px) and (max-width:480px) {
+
+}
+/*Tablet 480 x 768px*/
+@media (min-width: 481px) and (max-width:767px) {
+
+}
+/*Laptop / Monitor*/
+@media (min-width: 768px) and (max-width:1280px) {
+
+}
+
+/* << ================================================================================ >>*/
 /* Base Mobile === */
 @media (max-width:360px) {
 
