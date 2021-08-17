@@ -1,3 +1,5 @@
+/* >  =========================== Components =============================== <*/
+@import "./cssMedia/menu-burger.css"; 
 @import "./cssMedia/movieQueries.css"; 
 
 :root {

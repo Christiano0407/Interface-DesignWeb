@@ -1,0 +1,15 @@
+.menu-btn {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    right: 5%;
+    top: 4rem;
+
+    border: 1px solid red;
+}
