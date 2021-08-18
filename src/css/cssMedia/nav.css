@@ -58,6 +58,16 @@ a:hover {
     justify-content: space-between;
     list-style: none;
 }
+.nav-link {
+    position: relative;
+    opacity: 0;
+    left: -10%;
+}
+.nav-link.active {
+  transition: 0.5s;
+  left: 0;
+  opacity: 1;
+}
 .nav__right {
     position: absolute;
     z-index: 9;
@@ -85,5 +95,5 @@ a:hover {
     transition: 0.5s;
 }
 p {
-    color: var(--clr-ba30);
+    color: var(--clr-white);
 }

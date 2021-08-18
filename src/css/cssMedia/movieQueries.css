@@ -9,6 +9,11 @@
 }
 /*Tablet 480 x 768px*/
 @media (min-width: 481px) and (max-width:767px) {
+    .menu-btn {
+        display: none;
+    }
+
+    
 
 }
 /*Laptop / Monitor*/
@@ -22,22 +27,14 @@
 
 }
 /* Android === */
-@media (min-width: 361px) and (max-width:640px) {
-
-}
+/* @media (min-width: 361px) and (max-width:640px) {} */
 /* IPhone 8 === */
-@media (min-width: 414px) and (max-width: 736px) {
-
-}
+/* @media (min-width: 414px) and (max-width: 736px) {} */
 
 /* IPhone Pro X  === */
-@media (min-width: 375px) and (max-width: 812px) {
-
-}
+/* @media (min-width: 375px) and (max-width: 812px) {} */
 /* IPhone Pro X MAX === */
-@media (min-width: 414px) and (max-width: 896px) {
-
-}
+/* @media (min-width: 414px) and (max-width: 896px) {} */
 
 
 
@@ -48,48 +45,28 @@
 
 }
 /* Tablet Mini 768 a 1024px ==> */
-@media (min-width: 769px) and (max-width: 1023px) {
-
-}
+/* @media (min-width: 769px) and (max-width: 1023px) {} */
 
 /* Tablet Base ==> */
 
 /* ============ Desktop ============*/
 
 /* Desktop Base ==> */
-@media screen and (min-width: 1024px) {
-
-}
+/* @media screen and (min-width: 1024px) {} */
 
 /* Desktop Imac 1280 x 720px==> */
-@media (min-width: 720px) and (max-width: 1279px) {
+/* @media (min-width: 720px) and (max-width: 1279px) {} */
 
-}
-
-@media screen and (min-width: 1280px) {
-
-}
+/* @media screen and (min-width: 1280px) {} */
 
 /* Desktop 1024px x 1440px ==> */
-@media (min-width: 1024px) and (max-width: 1440px) {
-
-}
+/* @media (min-width: 1024px) and (max-width: 1440px) {} */
 /* Desktop MacBook ==> */
-@media (min-width: 700px) and (max-width: 1152px) {
-
-}
+/* @media (min-width: 700px) and (max-width: 1152px) {} */
 
 /* Desktop NacBook Pro ==> */
-@media (min-width: 900px) and (max-width: 1440px) {
+/* @media (min-width: 900px) and (max-width: 1440px) {} */
 
-}
-
-@media screen and (min-width: 1336px) {
-
-}
-@media screen and (min-width: 1440px) {
-
-}
-@media screen and (min-width: 1920px) {
-
-}
+/* @media screen and (min-width: 1336px) {} */
+/* @media screen and (min-width: 1440px) {} */
+/* @media screen and (min-width: 1920px) {} */

@@ -20,20 +20,31 @@ menuBtn.addEventListener(`click`, () => {
     if(!menuOpen) {
         menuBtn.classList.add(`open`); 
         menuOpen = true; 
+        menuBtn.classList.contains(`open`)
+  //menuOpen = true; 
 
         setTimeout(() => {
         navRight.classList.add(`active`); 
-        }, 200); 
+        }, 100); 
+
+        for(let i = 0; i  < navLink.length; i++) {
+        
+        navLink[i].classList.remove(`active`); 
+
+        setTimeout(() => {
+        navLink[i].classList.add(`active`); 
+        }, i * 100); 
+        }
 
         setTimeout(() => {
         contact.classList.add(`active`);
-        }, 400); 
+        }, 700); 
 
     } else {
         menuBtn.classList.remove(`open`); 
         menuOpen = false; 
 
-         contact.classList.remove(`active`);
+        contact.classList.remove(`active`);
     }
     // < ========= Llamar a navegadores laterales  =========== > 
     // ClassList and Toggle == > 
@@ -52,16 +63,17 @@ menuBtn.addEventListener(`click`, () => {
 
     // < =========== Conditionals =========== >
 
-    if(menuBtn.classList.contains(`open`)) {
-         menuOpen = true
-        for(let i = 0; i < navLink.length; i++) {
-            navLink[i].classList.remove(`active`); 
+    /* if() { */
+    /*     */
+    /*       */
+    /*     */
+    /*     */
 
-            setTimeout(() => {
-                navLink[i].classList.add(`active`); 
-            }, i * 100); 
-        }
-    }
+    /*     */
+    /*     */
+    /*     */
+    /*     */
+    /* } */
 
 }); 
 
