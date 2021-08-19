@@ -38,6 +38,11 @@ Interface Design Web Responsive and Animation Web with Javascript Vanilla.
 # CDN
 - [CDN Js](https://cdnjs.com/)
 
+## Articles and Docs Web
+- [Media-Queries-CSS](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [Dynamic Viewports](https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/)
+- [Video and Audio APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs)
+
 # MIT License 
 
 > License: 

@@ -1,12 +1,94 @@
 /* <<<<<< ============================== Break Points / Media Queries ==================================== >>>>> */
 
+/* ============ Wearables ============*/
+/* ----------- Moto 360 Watch ----------- */
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+
+}
+
 /* ============ Mobile ============*/
+/* Base Mobile === */
+@media (max-width:360px) {
+}
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Estándar Breakpoints <<<<<<<<<<<<<<<<<<<<<<<<<*/
 /*SmartPhone*/
-@media (min-width: 360px) and (max-width:480px) {
+/* @media (min-width: 360px) and (max-width:480px) { */
+/* } */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+/* =============== Menu Burger ============= */
+    .menu-btn {
+        top: 2rem;
+    }
+    .menu-btn-burger {
+        width: 30px;
+        height: 2px;
+    }
+    .menu-btn-burger::before {
+        transform: translateY(-10px);
+    }
+    .menu-btn-burger::after {
+        transform: translateY(10px);
+    }
+    .menu-btn-burger::before, 
+    .menu-btn-burger::after {
+     width: 30px;
+     height: 2px;
+    }
+
+/* =============== Nav ============= */
+
+/* =============== Main ============= */
+ main {
+     width: 100%;
+ }
+
+ .search {
+    width: 90%;
+    margin: 0 auto;
+    height: 8rem;
+   /*  margin-top: 3rem; */
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .search .search__one {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.search input {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    background: none;
+    color: #fff;
+    margin: 0 .5rem;
+    padding: 1rem;
+}
+
 
 }
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
 /*Tablet 480 x 768px*/
 @media (min-width: 481px) and (max-width:767px) {
     .menu-btn {
@@ -17,15 +99,28 @@
 
 }
 /*Laptop / Monitor*/
-@media (min-width: 768px) and (max-width:1280px) {
+/* @media (min-width: 768px) and (max-width:1280px) { */
+/* } */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 
 }
 
 /* << ================================================================================ >>*/
-/* Base Mobile === */
-@media (max-width:360px) {
 
-}
 /* Android === */
 /* @media (min-width: 361px) and (max-width:640px) {} */
 /* IPhone 8 === */
