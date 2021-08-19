@@ -75,10 +75,16 @@
     margin: 0 .5rem;
     padding: 1rem;
 }
+/* ======== Carousel ======= */
+.carousel {
+    width: 90%;
+    margin: 2rem auto;
+    height: 200px;
+}
 
 
 }
-
+/*=== Termina > */
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
