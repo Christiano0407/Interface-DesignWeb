@@ -79,11 +79,11 @@
 .carousel {
     width: 90%;
     margin: 1rem auto;
-    height: 200px;
+    height: 300px;
 }
 .slider {
     width: 90%;
-    height: 150px;
+    height: 250px;
     left: 5%;
 }
 .slider__inner {
@@ -105,15 +105,33 @@
 }
 .categories ,.categories__title h1 {
     color: #fff;
-    font-size: .6rem;
+    font-size: 1rem;
     padding: .5rem;
-    margin-left: 0;
+   /*  margin-left: auto; */
 }
 .categories .categories__text p {
     color: var(--clr-base);
     font-size: .8rem;
     padding: .5rem;
 }
+
+/* ==== Carousel Two => */
+.slider__innerTwo {
+    position: absolute;
+    width: 250%;
+    height: 100%;
+    top: 0;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.slider__img {
+    width: 100%;
+    height: 70%;
+    padding: .5rem;
+    margin: 0 auto;
+}
+
 
 }
 /*=== Termina > */

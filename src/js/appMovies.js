@@ -133,4 +133,13 @@ checkbounddary = () => {
 
 //checkbounddary(); 
 
+// ========= Carousel Three ============== >
+const picture = document.querySelectorAll(`.picture`); 
+console.log(picture); 
+
+// << ================== Function / Events ============== >>
+picture.forEach((img, idx) => {
+    img.style.backgroundImage = `url(../assets/image/${idx+1}.jpg)`; 
+});
+
 console.groupEnd(); 
