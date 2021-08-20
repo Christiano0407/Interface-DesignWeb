@@ -132,6 +132,11 @@
     margin: 0 auto;
 }
 
+.textImg ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 
 }
 /*=== Termina > */
